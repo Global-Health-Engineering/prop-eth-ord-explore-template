@@ -12,7 +12,6 @@ format:
 execute:
   echo: false
   warning: false
-citation: true
 bibliography: references.bib
 csl: vancouver-brackets-no-et-al.csl
 editor_options: 
@@ -70,37 +69,37 @@ wp4_rqs <- filter(tbl02, WP == "WP4") |>
 
 ## Website
 
-- Measure 1: Calls for Field-Specific Actions
-- https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/
-- Explore projects will allow early phase exploration, testing and prototyping of what an ORD practice could be like. They will enable starting to engage with a community without necessarily building up something definitive. The aim is to help our researchers to explore if ORD practices can be developed and how.
+-   Measure 1: Calls for Field-Specific Actions
+-   https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/
+-   Explore projects will allow early phase exploration, testing and prototyping of what an ORD practice could be like. They will enable starting to engage with a community without necessarily building up something definitive. The aim is to help our researchers to explore if ORD practices can be developed and how.
 
 ## Aims
 
 Funding for "Explore projects" aims at:
 
-1. Specifying ORD standards. 
-2. Prototyping ORD tools.
-3. Building Communities to engage in ORD practices.
-4. Any other means that help explore and develop ORD practices.
+1.  Specifying ORD standards.
+2.  Prototyping ORD tools.
+3.  Building Communities to engage in ORD practices.
+4.  Any other means that help explore and develop ORD practices.
 
 It is important that Explore projects are not self-centred but emphasize exchanges in the spirit of Open Science with other researchers, technical experts, and stakeholders.
 
 ## Application guidelines (ETH Domain)
 
-- https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf
-- It is the declared goal to fund proposals that make tools (e.g., software; hardware; protocols; standards; benchmarks; documentation and training materials; networking and education events, activities and resources) available which enable, facilitate and foster sharing research data based on ORD principles. Preference will be given to projects which engage and are connected to a community. Therefore, applicants are strongly invited to demonstrate why their project represents an ORD practice that encourages good research in their field.
+-   https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf
+-   It is the declared goal to fund proposals that make tools (e.g., software; hardware; protocols; standards; benchmarks; documentation and training materials; networking and education events, activities and resources) available which enable, facilitate and foster sharing research data based on ORD principles. Preference will be given to projects which engage and are connected to a community. Therefore, applicants are strongly invited to demonstrate why their project represents an ORD practice that encourages good research in their field.
 
 ## Application guidelines (ETHZ & EPFL)
 
-- https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines-Explore-EPFL-ETHZ-applicants-2nd-call-LATEST.pdf
+-   https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines-Explore-EPFL-ETHZ-applicants-2nd-call-LATEST.pdf
 
 For applicants at ETHZ
 
-- In this Explore call, applicants at ETHZ must contribute 25% of the total budget from the resources of their lab/group/unit, either in-cash or in-kind. See the budgeting guidelines below for eligible contributions.
+-   In this Explore call, applicants at ETHZ must contribute 25% of the total budget from the resources of their lab/group/unit, either in-cash or in-kind. See the budgeting guidelines below for eligible contributions.
 
 For applicants at EPFL
 
-- In this Explore call, applicants at EPFL can be funded for 100% of the total budget.
+-   In this Explore call, applicants at EPFL can be funded for 100% of the total budget.
 
 # Project Proposal
 
@@ -120,18 +119,19 @@ Please include a project title (max. 12 words); this title will be used for all 
 
 **Instructions**
 
-Please explain which aim(s) of the ORD “contribute projects” you seek to address:
+Please explain which aim(s) of the ORD "contribute projects" you seek to address:
 
-1. Specifying ORD standards. 
-2. Prototyping ORD tools.
-3. Building Communities to engage in ORD practices.
-4. Any other means that help explore and develop ORD practices.
+1.  Specifying ORD standards.
+2.  Prototyping ORD tools.
+3.  Building Communities to engage in ORD practices.
+4.  Any other means that help explore and develop ORD practices.
 
 It is important that Explore projects are not self-centred but emphasize exchanges in the spirit of Open Science with other researchers, technical experts, and stakeholders.
 
 ## Section 1.1
 
 -   One paragraph. 50 to 70 words
+-   Reference @wilkinson2016fair
 
 ## Section 1.2
 
@@ -151,36 +151,15 @@ It is important that Explore projects are not self-centred but emphasize exchang
 
 # ORD project plan
 
+<!--# Edit work package names, activities and research questions in corresponding Google Sheet at: https://drive.google.com/drive/u/1/folders/1rcNgjQcII-V5N3Q5Z_KjM_6ghxFve20e -->
+
 **Instructions**
 
-Please describe your project design, including how it addresses the aim(s) of the ORD “Explore projects” described above. Please refer to the scientific literature as well as any preliminary, unpublished results that have informed your approach. 
+Please describe your project design, including how it addresses the aim(s) of the ORD "Explore projects" described above. Please refer to the scientific literature as well as any preliminary, unpublished results that have informed your approach.
 
-- Which specific gap(s) in knowledge will your work address? Why is your approach innovative?
-- What questions will the project answer? What specific outcomes will you focus on? 
-- Which strategy will you use to address the questions you seek to answer?
-
-
-## `r paste0(wp_no[1], ": ", wp_name[1])`
-
-### Goal
-
--   Describe the work concisely in 1 paragraph (80 to 120 words)
-
-### Activities
-
-```{epoxy}
-{1:length(wp1_activities)}. {wp1_activities[1:length(wp1_activities)]}
-```
-
-### Research Questions
-
-```{epoxy}
-{1:length(wp1_rqs)}. {wp1_rqs[1:length(wp1_rqs)]}
-```
-
-### Aims addressed
-
-- Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+-   Which specific gap(s) in knowledge will your work address? Why is your approach innovative?
+-   What questions will the project answer? What specific outcomes will you focus on?
+-   Which strategy will you use to address the questions you seek to answer?
 
 ## `r paste0(wp_no[1], ": ", wp_name[1])`
 
@@ -202,31 +181,9 @@ Please describe your project design, including how it addresses the aim(s) of th
 
 ### Aims addressed
 
-- Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+-   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
 
-## `r paste0(wp_no[1], ": ", wp_name[1])`
-
-### Goal
-
--   Describe the work concisely in 1 paragraph (80 to 120 words)
-
-### Activities
-
-```{epoxy}
-{1:length(wp1_activities)}. {wp1_activities[1:length(wp1_activities)]}
-```
-
-### Research Questions
-
-```{epoxy}
-{1:length(wp1_rqs)}. {wp1_rqs[1:length(wp1_rqs)]}
-```
-
-### Aims addressed
-
-- Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
-
-## `r paste0(wp_no[1], ": ", wp_name[1])`
+## `r paste0(wp_no[2], ": ", wp_name[2])`
 
 ### Goal
 
@@ -235,30 +192,74 @@ Please describe your project design, including how it addresses the aim(s) of th
 ### Activities
 
 ```{epoxy}
-{1:length(wp1_activities)}. {wp1_activities[1:length(wp1_activities)]}
+{1:length(wp2_activities)}. {wp2_activities[1:length(wp2_activities)]}
 ```
 
 ### Research Questions
 
 ```{epoxy}
-{1:length(wp1_rqs)}. {wp1_rqs[1:length(wp1_rqs)]}
+{1:length(wp2_rqs)}. {wp2_rqs[1:length(wp2_rqs)]}
 ```
 
 ### Aims addressed
 
-- Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+-   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+
+## `r paste0(wp_no[3], ": ", wp_name[3])`
+
+### Goal
+
+-   Describe the work concisely in 1 paragraph (80 to 120 words)
+
+### Activities
+
+```{epoxy}
+{1:length(wp3_activities)}. {wp3_activities[1:length(wp3_activities)]}
+```
+
+### Research Questions
+
+```{epoxy}
+{1:length(wp3_rqs)}. {wp3_rqs[1:length(wp3_rqs)]}
+```
+
+### Aims addressed
+
+-   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+
+## `r paste0(wp_no[4], ": ", wp_name[4])`
+
+### Goal
+
+-   Describe the work concisely in 1 paragraph (80 to 120 words)
+
+### Activities
+
+```{epoxy}
+{1:length(wp4_activities)}. {wp4_activities[1:length(wp4_activities)]}
+```
+
+### Research Questions
+
+```{epoxy}
+{1:length(wp4_rqs)}. {wp4_rqs[1:length(wp4_rqs)]}
+```
+
+### Aims addressed
+
+-   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
 
 # Impact
 
 **Instructions**
 
-Please address these specific points: 
+Please address these specific points:
 
-- How sustainable is the proposed project inside the ETH Domain? 
+-   How sustainable is the proposed project inside the ETH Domain?
 
-- To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted field(s)?
+-   To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted field(s)?
 
-- To what extent does the proposal support a collaborative approach, involving significant synergies, complementarities, or/and scientific added-value to achieve its objectives?
+-   To what extent does the proposal support a collaborative approach, involving significant synergies, complementarities, or/and scientific added-value to achieve its objectives?
 
 # Work Packages and milestones
 
@@ -266,9 +267,9 @@ Please address these specific points:
 
 Please include a detailed Gantt chart or table outlining the timeline of your project, including key activities and major deliverables.
 
-***
+------------------------------------------------------------------------
 
-The following Table X shows a basic gantt chart against the four work packages, including program activities. Column “Lead” abbreviations: 
+The following Table X shows a basic gantt chart against the four work packages, including program activities. Column "Lead" abbreviations:
 
 "Any publications derived from this program will be published as open access material, following ORD practices and Open Science standards for computational reproducibility and sharing of data and code under FAIR principles."
 
@@ -278,7 +279,7 @@ Table X: https://docs.google.com/spreadsheets/d/18-6BHa8NR-g2Qlpu9yVSOEFXmsh6mRs
 
 Table Y: https://docs.google.com/spreadsheets/d/1MJkJN739eI9apa0Wfg1cHmIQgSshE1arCHBPWeFJwDk/edit#gid=0
 
-#  Budget justification and description of co-financing
+# Budget justification and description of co-financing
 
 Table Z: https://docs.google.com/spreadsheets/d/1Z7qNNp1DVB6F38eKfvx8FEUXzNi-ZPVfjtAetBJufdI/edit#gid=0
 
