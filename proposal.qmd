@@ -107,7 +107,18 @@ Your project proposal must not exceed 12 pages, excluding the bibliography (A4, 
 
 # Abstract
 
-TODO: Get instructions from submission portal
+**Instructions**
+
+- maax 1500 characters
+- needed on submission portal
+- will be displayed publicly, see for example: https://ethrat.ch/wp-content/uploads/2022/11/ORD_Explore_call1_decisiontable_for-publication.pdf
+
+# Keywords
+
+**Instructions**
+
+- 5 keywords that characterise your proposal (separated by commas)
+- needed on submission portal
 
 # Proposal full title
 
