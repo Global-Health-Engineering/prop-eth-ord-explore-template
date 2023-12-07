@@ -10,9 +10,11 @@ The Quarto document reads data from the `data/tables/` folder to generate sectio
 
 The folder contains CSV files, which are read from Google Sheets using the `read_gsheets_tables.R` script. 
 
-- Google Drive folder: https://drive.google.com/drive/u/1/folders/1O7xvGeiBg9xQ5z4zaoOKT1jCkn1WYIG1
-
 The Google sheets provide a collaborative way to edit the main content of the proposal. By running the script, the CSV files are updated with the latest version of the Google Sheets. The CSV files are then read by the Quarto document to generate parts of the proposal.
+
+Google Drive folder with Google Sheets in "tables": https://drive.google.com/drive/u/1/folders/1O7xvGeiBg9xQ5z4zaoOKT1jCkn1WYIG1
+
+Create your own copy of the folder and then edit the Google Sheets. You will need to update the IDs of the sheets in the `read_gsheets_tables.R` script.
 
 # Attribution
 
